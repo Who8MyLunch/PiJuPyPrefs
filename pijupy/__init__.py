@@ -11,8 +11,3 @@ def apply():
     my_jupyter.apply()
     my_matplotlib.apply()
     my_pandas.apply()
-
-
-
-# Apply settings upon import
-apply()
