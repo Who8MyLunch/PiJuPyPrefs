@@ -24,4 +24,3 @@ def apply():
     """Call all Jupyter settings functions
     """
     wide_display()
-
