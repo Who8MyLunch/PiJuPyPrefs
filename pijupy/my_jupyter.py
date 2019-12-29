@@ -20,7 +20,20 @@ def wide_display():
 
 
 
+def ipython():
+    """My favorite ipython settings
+    """
+    IPy = get_ipython()
+
+    IPy.run_line_magic('load_ext', 'autoreload')
+    IPy.run_line_magic('autoreload', 2)
+
+    IPy.Completer.use_jedi = False
+
+
+
 def apply():
     """Call all Jupyter settings functions
     """
     wide_display()
+    ipython()
